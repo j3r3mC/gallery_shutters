@@ -22,6 +22,7 @@ body{
     color: white;
     margin-top: 0;
   }
+
   
   .container-images {
     padding: 1rem;
@@ -45,10 +46,29 @@ body{
     width: 8.5rem;
     transition: transform 0.3s ease;
     object-fit: cover;
-    object-position: auto;
 
   }
-  
+  #img1{
+    object-position: 68%;
+  }
+  #img2{
+    object-position: 65%;
+  }
+  #img3{
+    object-position: 70%;
+  }
+  #img4{
+    object-position: 25%;
+  }
+  #img5{
+    object-position: 45%;
+  }
+  #img6{
+    object-position: 36%;
+  }
+  #img7{
+    object-position: 35%;
+  }
   .container-images img:hover {
     transform: scale(1.2);
   }
